@@ -18,6 +18,7 @@ function addUserToGrid(firstName, lastName, age) {
     const gridContainer = document.getElementById('gridContainer');
 
     const gridItem = document.createElement('div');
+    
     gridItem.className = 'grid-item';
 
     const nameElement = document.createElement('p');
